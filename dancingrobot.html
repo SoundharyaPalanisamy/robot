@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h{
+            text-align: center;
+
+        }
+         .b
+        {
+             height: 500px;
+             width: 500px;
+             border: 3px  solid black;
+            
+             background-color: gainsboro;
+             position: relative;
+             left: 300px;
+        }
+        .head
+        {
+            height: 90px;
+             width: 75px;
+             margin: 9px;
+             border: 2px solid black;
+             border-radius: 25px 4px 5px 5px;
+             background-color: orangered;
+             position: relative;
+             bottom: 450px;
+             left: 500px;
+             animation-name:head ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes head{
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform: rotate(10deg);
+            
+        }
+             
+       }
+       .body
+       {
+    
+             height: 112px;
+             width: 100px;
+             border-radius: 23px 5px 15px 5px;
+             border: 2px solid black;
+             position: relative;
+             background-color:lightblue;
+             bottom: 450px;
+             left: 500px ;
+       }
+       .body:hover
+       {
+             animation-name:body;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes body{
+            0%{ 
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transform: rotate(360deg);
+            
+        }
+             
+              
+
+
+       }
+       .LL
+       {
+            margin: 10px;
+             height: 100px;
+             width: 23px;
+             border-radius: 500px;
+             border: 2px solid black;
+             position: relative;
+             background-color: lightcoral;
+             bottom: 480px;
+             left: 492px ;
+                animation-name:LLeg ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes LLeg {
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform: rotate(10deg);
+        }  
+             
+        }
+        .RL
+        {
+            margin: 10px;
+             height: 100px;
+             width: 23px;
+             border-radius: 500px;
+             border: 2px solid black;
+              background-color: lightcoral;
+             display: flex;
+             position: relative;
+             flex-direction: column;
+             bottom: 592px;
+             left: 569px;
+              animation-name:RLeg ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes RLeg {
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform: rotate(10deg);
+        } 
+
+        }
+        .LH
+        {
+            margin: 5px;
+            height: 80px;
+            width:12px;
+            border-radius:500px ;
+            border: 2px solid black;
+            background-color: lightseagreen;
+             display: flex;
+            position: relative;
+            flex-direction: column;
+            bottom: 790px;
+            left: 465px;
+            animation-name:Lhand;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Lhand {
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform: rotate(10deg);
+        }
+            
+            
+
+
+        }
+        .RH
+        {
+            margin: 5px;
+            height: 80px;
+            width:12px;
+            border-radius:500px ;
+            border: 2px solid black;
+            background-color: lightseagreen;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            bottom: 876px;
+            left: 610px;
+            animation-name:Lhand;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Lhand {
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform: rotate(10deg);
+        }
+            
+            
+            
+        }
+        .LE
+        {
+           margin: 2px;
+            height: 8px;
+            width: 10px;
+            border-radius: 500px;
+            border: 1px solid black;
+            background-color: black;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            bottom:1048px ;
+            left: 520px;
+
+        }
+        .RE
+        {
+            margin: 2px;
+            height: 8px;
+            width: 10px;
+            border-radius: 500px;
+            border: 1px solid black;
+            background-color: black;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            bottom:1059px ;
+            left: 556px;
+        }
+        .M
+        {
+            margin: 2px;
+            height:10px;
+            width: 30px;
+            border-radius: 100px;
+            background-color: black;
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            bottom:1035px ;
+            left: 527px;
+            animation-name:m ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes m {
+            0%{ 
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transform:scaleX(20px);
+        } 
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h"><i>Dancing Robot</i></h1>
+    <div class="b"></div>
+    <div class="head"></div>
+    <div class="body"></div>
+    <div class="LL"></div>
+    <div class="RL"></div>
+    <div class="LH"></div>
+    <div class="RH"></div>
+    <div class="LE"></div>
+    <div class="RE"></div>
+    <div class="M"></div>
+
+
+</body>
+</html>
